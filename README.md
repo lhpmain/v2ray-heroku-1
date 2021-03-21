@@ -27,9 +27,13 @@
 
 |  名称 | 值  | 说明  |
 | ------------ | ------------ | ------------ |
-|  PROTOCOL |  vmess<br>vless（可选） |  协议：nginx+vmess+ws+tls或是nginx+vless+ws+tls |
-|  UUID |  [uuid在线生成器](https://www.uuidgenerator.net "uuid在线生成器") | 用户主ID  |
-|  WS_PATH | 默认为`/ray` |  路径 |
+|  APP_NAME |就是你 heroku 项目的名字 |   |
+|  EMAIL |heroku 账户的 email |   |
+|  HEROKU_API_KEY |heroku API key | 在 account 设置下可以找到  |
+|  HEROKU_V2RAY_WS_PATH |路径 | 默认为/ray  |
+|  APP_NAME |就是你 heroku 项目的名字 |   |
+|  HEROKU_V2RAY_PROTOCOL |  vmess<br>vless（可选） |  协议：nginx+vmess+ws+tls或是nginx+vless+ws+tls |
+|  HEROKU_V2RAY_UUID |  [uuid在线生成器](https://www.uuidgenerator.net "uuid在线生成器") | 用户主ID  |
 
 ### 进阶
 heorku可以绑卡（应用一直在线，不扣费），绑定域名，套cf，[uptimerobot](https://uptimerobot.com/) 定时访问防止休眠
